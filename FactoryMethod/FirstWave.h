@@ -4,7 +4,7 @@
 
 class FirstWave : public Creator{
 
-    Сharacter* FactoryMethod() const override{
+    Character* FactoryMethod() const override{
 
         return new Warrior();
     };

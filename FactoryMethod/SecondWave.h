@@ -4,7 +4,7 @@
 
 class SecondWave : public Creator{
 
-    Сharacter* FactoryMethod() const override{
+    Character* FactoryMethod() const override{
 
         return new Bowman();
     };

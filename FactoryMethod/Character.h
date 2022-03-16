@@ -1,10 +1,10 @@
 #pragma once
 #include <iostream>
 
-class Сharacter {
+class Character {
 
     public:
-        virtual ~Сharacter() {}
+        virtual ~Character() {}
         virtual std::string Name() const = 0;
         virtual int Health() const = 0;
 };

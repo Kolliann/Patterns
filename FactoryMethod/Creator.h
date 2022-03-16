@@ -1,17 +1,17 @@
 #pragma once
-#include "Сharacter.h"
+#include "Character.h"
 
 class Creator {
 
 public:
     virtual ~Creator(){};
-    virtual Сharacter* FactoryMethod() const = 0;
+    virtual Character* FactoryMethod() const = 0;
 
     std::string Operation() const {
         // вызов фабричного метода, для получения объекта
-        Сharacter* character = this->FactoryMethod();
+        Character* character = this->FactoryMethod();
         // Далее, работаем с этим продуктом.
-        std::string result = character->Health() + " ";
+        std::string result = character->Name() + " ";
         return result;
     }
 };

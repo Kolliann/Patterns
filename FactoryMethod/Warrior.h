@@ -1,6 +1,6 @@
 #pragma once
-#include "Сharacter.h"
-class Warrior : public Сharacter{
+#include "Character.h"
+class Warrior : public Character{
 
     std::string Name() const override {
 

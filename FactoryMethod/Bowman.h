@@ -1,7 +1,7 @@
 #pragma once
-#include "Сharacter.h"
+#include "Character.h"
 
-class Bowman : public Сharacter{
+class Bowman : public Character{
 
     std::string Name() const override {
 
